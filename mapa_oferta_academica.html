@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a6d0ae9540f6ab52d70602b31807d21b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a6d0ae9540f6ab52d70602b31807d21b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a6d0ae9540f6ab52d70602b31807d21b = L.map(
+                "map_a6d0ae9540f6ab52d70602b31807d21b",
+                {
+                    center: [4.570868, -74.297333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b4797c86c58809065009c8c6fd437ab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8b4797c86c58809065009c8c6fd437ab.addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var marker_1d9763d821d93d720fa64ed040e7ff64 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_7a84185855636ba0d04d59d9bb123fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d9763d821d93d720fa64ed040e7ff64.setIcon(icon_7a84185855636ba0d04d59d9bb123fca);
+        
+    
+        var popup_09fca7de578e6f9aae9afd943af41d6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25628adb9935bce7ace21382ea255f74 = $(`<div id="html_25628adb9935bce7ace21382ea255f74" style="width: 100.0%; height: 100.0%;">Institución: Universidad Pontificia Bolivariana<br>Programa: Especialización en Seguridad Informática</div>`)[0];
+                popup_09fca7de578e6f9aae9afd943af41d6e.setContent(html_25628adb9935bce7ace21382ea255f74);
+            
+        
+
+        marker_1d9763d821d93d720fa64ed040e7ff64.bindPopup(popup_09fca7de578e6f9aae9afd943af41d6e)
+        ;
+
+        
+    
+    
+            var marker_471ac1ac5944e9193ac54f4d11718dcf = L.marker(
+                [10.9685, -74.7813],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_7b5b9708ab2e0b69ecd340ce0873ffa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_471ac1ac5944e9193ac54f4d11718dcf.setIcon(icon_7b5b9708ab2e0b69ecd340ce0873ffa5);
+        
+    
+        var popup_bb2daf87fa7f2e99277b31c2a4c38dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bda81e8ad6ba48e7e4186819eb45927 = $(`<div id="html_9bda81e8ad6ba48e7e4186819eb45927" style="width: 100.0%; height: 100.0%;">Institución: Universidad del Norte<br>Programa: Especialización en Seguridad de la Información</div>`)[0];
+                popup_bb2daf87fa7f2e99277b31c2a4c38dd3.setContent(html_9bda81e8ad6ba48e7e4186819eb45927);
+            
+        
+
+        marker_471ac1ac5944e9193ac54f4d11718dcf.bindPopup(popup_bb2daf87fa7f2e99277b31c2a4c38dd3)
+        ;
+
+        
+    
+    
+            var marker_dbbf98d92709b47b8b4cf38b6b84a37f = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_8d838d4b22db0d5798b3c8e60aa9fc20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbbf98d92709b47b8b4cf38b6b84a37f.setIcon(icon_8d838d4b22db0d5798b3c8e60aa9fc20);
+        
+    
+        var popup_41097e6016e3089e21556b3bfea71776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fed0fd42ecc441cc1146576b1d84e2ff = $(`<div id="html_fed0fd42ecc441cc1146576b1d84e2ff" style="width: 100.0%; height: 100.0%;">Institución: Universidad de San Buenaventura<br>Programa: Especialización en Ciberseguridad</div>`)[0];
+                popup_41097e6016e3089e21556b3bfea71776.setContent(html_fed0fd42ecc441cc1146576b1d84e2ff);
+            
+        
+
+        marker_dbbf98d92709b47b8b4cf38b6b84a37f.bindPopup(popup_41097e6016e3089e21556b3bfea71776)
+        ;
+
+        
+    
+    
+            var marker_8786ecbd30d5bc65e6ad7ad718cc418d = L.marker(
+                [7.1193, -73.1227],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_13c72dd7960885ce1a3f5ce4d1738ab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8786ecbd30d5bc65e6ad7ad718cc418d.setIcon(icon_13c72dd7960885ce1a3f5ce4d1738ab0);
+        
+    
+        var popup_0a398b7e63e3f9f1cbcc8cbc4a912ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42bdc66bb2064484c606eddf56bdd14c = $(`<div id="html_42bdc66bb2064484c606eddf56bdd14c" style="width: 100.0%; height: 100.0%;">Institución: Universidad Pontificia Bolivariana<br>Programa: Especialización en Seguridad Informática</div>`)[0];
+                popup_0a398b7e63e3f9f1cbcc8cbc4a912ad3.setContent(html_42bdc66bb2064484c606eddf56bdd14c);
+            
+        
+
+        marker_8786ecbd30d5bc65e6ad7ad718cc418d.bindPopup(popup_0a398b7e63e3f9f1cbcc8cbc4a912ad3)
+        ;
+
+        
+    
+    
+            var marker_18f8c67f18461c11de1b816ad5da8da8 = L.marker(
+                [4.8143, -75.6946],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_82ecb3d064af60a71b353136cf945b51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18f8c67f18461c11de1b816ad5da8da8.setIcon(icon_82ecb3d064af60a71b353136cf945b51);
+        
+    
+        var popup_8eda7c637564063e909a48158c1ce842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563a5a84fcb3f95f4494358de18a8c05 = $(`<div id="html_563a5a84fcb3f95f4494358de18a8c05" style="width: 100.0%; height: 100.0%;">Institución: Universidad Libre<br>Programa: Especialización en Seguridad de la Información</div>`)[0];
+                popup_8eda7c637564063e909a48158c1ce842.setContent(html_563a5a84fcb3f95f4494358de18a8c05);
+            
+        
+
+        marker_18f8c67f18461c11de1b816ad5da8da8.bindPopup(popup_8eda7c637564063e909a48158c1ce842)
+        ;
+
+        
+    
+    
+            var marker_ad5d5419b75f857d85dc39a871483726 = L.marker(
+                [2.4448, -76.6147],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_f3c84bacd6c2b64260fb455957a6867c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad5d5419b75f857d85dc39a871483726.setIcon(icon_f3c84bacd6c2b64260fb455957a6867c);
+        
+    
+        var popup_86250d8f1b983064632278bd6ce3cc3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c939cd853d4033f2dbd3293ade71cd6 = $(`<div id="html_6c939cd853d4033f2dbd3293ade71cd6" style="width: 100.0%; height: 100.0%;">Institución: Universidad Cooperativa de Colombia<br>Programa: Especialización en Seguridad de la Información</div>`)[0];
+                popup_86250d8f1b983064632278bd6ce3cc3c.setContent(html_6c939cd853d4033f2dbd3293ade71cd6);
+            
+        
+
+        marker_ad5d5419b75f857d85dc39a871483726.bindPopup(popup_86250d8f1b983064632278bd6ce3cc3c)
+        ;
+
+        
+    
+    
+            var marker_543e19ebfb7f1f5a4c79261aa78bb2e3 = L.marker(
+                [8.74798, -75.8814],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_7b98b4580fb6c06688a165556ddeadb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_543e19ebfb7f1f5a4c79261aa78bb2e3.setIcon(icon_7b98b4580fb6c06688a165556ddeadb1);
+        
+    
+        var popup_c48112c1fa45f966e846cad07a7eb66a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ddf4d97854de8f223d36e7c78f8332 = $(`<div id="html_d7ddf4d97854de8f223d36e7c78f8332" style="width: 100.0%; height: 100.0%;">Institución: Universidad Cooperativa de Colombia<br>Programa: Especialización en Seguridad de la Información</div>`)[0];
+                popup_c48112c1fa45f966e846cad07a7eb66a.setContent(html_d7ddf4d97854de8f223d36e7c78f8332);
+            
+        
+
+        marker_543e19ebfb7f1f5a4c79261aa78bb2e3.bindPopup(popup_c48112c1fa45f966e846cad07a7eb66a)
+        ;
+
+        
+    
+    
+            var marker_d1f33fffcdec67451c43490c3fc8100e = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_f96fcff8d6d8abc895cd46b69b44a2f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1f33fffcdec67451c43490c3fc8100e.setIcon(icon_f96fcff8d6d8abc895cd46b69b44a2f9);
+        
+    
+        var popup_4ccac55c62f3443038eb03d63af690e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47cdf061bda3941cfb12ae52ed2f438e = $(`<div id="html_47cdf061bda3941cfb12ae52ed2f438e" style="width: 100.0%; height: 100.0%;">Institución: Universidad Cooperativa de Colombia<br>Programa: Especialización en Seguridad de la Información</div>`)[0];
+                popup_4ccac55c62f3443038eb03d63af690e1.setContent(html_47cdf061bda3941cfb12ae52ed2f438e);
+            
+        
+
+        marker_d1f33fffcdec67451c43490c3fc8100e.bindPopup(popup_4ccac55c62f3443038eb03d63af690e1)
+        ;
+
+        
+    
+    
+            var marker_b3cd4ba0836ed0e952c4fcd32b01d606 = L.marker(
+                [7.1193, -73.1227],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_2dca101242a0d01808722e747104a085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3cd4ba0836ed0e952c4fcd32b01d606.setIcon(icon_2dca101242a0d01808722e747104a085);
+        
+    
+        var popup_55b20c9ba7c39aa2d6b2c6db31717f4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a4e2d757e9850bc82447b168cc90cf = $(`<div id="html_52a4e2d757e9850bc82447b168cc90cf" style="width: 100.0%; height: 100.0%;">Institución: Universidad Autónoma de Bucaramanga<br>Programa: Especialización en Ciberseguridad Organizacional</div>`)[0];
+                popup_55b20c9ba7c39aa2d6b2c6db31717f4d.setContent(html_52a4e2d757e9850bc82447b168cc90cf);
+            
+        
+
+        marker_b3cd4ba0836ed0e952c4fcd32b01d606.bindPopup(popup_55b20c9ba7c39aa2d6b2c6db31717f4d)
+        ;
+
+        
+    
+    
+            var marker_31e2787142e996d6dbac48f2575722a6 = L.marker(
+                [5.0703, -75.5138],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_622d1e7544aebbfa29cdb60f3496b696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31e2787142e996d6dbac48f2575722a6.setIcon(icon_622d1e7544aebbfa29cdb60f3496b696);
+        
+    
+        var popup_1dbd53d0935cecd86663e8eec75a40e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8634073003ef9a3a62d9160077f1a54 = $(`<div id="html_c8634073003ef9a3a62d9160077f1a54" style="width: 100.0%; height: 100.0%;">Institución: Universidad Católica de Manizales<br>Programa: Especialización en Ciberseguridad</div>`)[0];
+                popup_1dbd53d0935cecd86663e8eec75a40e2.setContent(html_c8634073003ef9a3a62d9160077f1a54);
+            
+        
+
+        marker_31e2787142e996d6dbac48f2575722a6.bindPopup(popup_1dbd53d0935cecd86663e8eec75a40e2)
+        ;
+
+        
+    
+    
+            var marker_80eae3489ff5e1f3659389dbafb8ecab = L.marker(
+                [6.173, -75.5635],
+                {}
+            ).addTo(map_a6d0ae9540f6ab52d70602b31807d21b);
+        
+    
+            var icon_8e689d74fddb7f1f9342a3348fa58784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80eae3489ff5e1f3659389dbafb8ecab.setIcon(icon_8e689d74fddb7f1f9342a3348fa58784);
+        
+    
+        var popup_e415c6214a8a7df5310506a73dc935ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3614b4de610f3690f34cd700c678fd2d = $(`<div id="html_3614b4de610f3690f34cd700c678fd2d" style="width: 100.0%; height: 100.0%;">Institución: Institución Universitaria de Envigado<br>Programa: Especialización en Seguridad de la Información de las Organizaciones</div>`)[0];
+                popup_e415c6214a8a7df5310506a73dc935ae.setContent(html_3614b4de610f3690f34cd700c678fd2d);
+            
+        
+
+        marker_80eae3489ff5e1f3659389dbafb8ecab.bindPopup(popup_e415c6214a8a7df5310506a73dc935ae)
+        ;
+
+        
+    
+</script>
+</html>
